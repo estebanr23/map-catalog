@@ -124,7 +124,6 @@ module.exports = {
           900: "#0F172A",
         },
       },
-
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
@@ -163,6 +162,9 @@ module.exports = {
         zoom: "zoom 1s ease-in-out infinite",
         tada: "tada 1.5s ease-in-out infinite",
       },
+      height: {
+        '576': '36rem',
+      }
     },
   },
   plugins: [],

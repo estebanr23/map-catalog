@@ -8,22 +8,32 @@ export const menuItems = [
     icon: "heroicons-outline:home",
     link: "dashboard",
   },
+  {
+    title: "Mapa Inicial",
+    icon: "heroicons-outline:map",
+    link: "initial",
+  },
+  {
+    title: "Mapa 1",
+    icon: "heroicons-outline:map",
+    link: "event-map",
+  },
   /* {
-    title: "Ventas",
+    title: "Multinivel",
     icon: "heroicons-outline:banknotes",
     link: "#",
     child: [
       {
-        childtitle: "Nueva Venta",
-        childlink: "nueva-venta",
+        childtitle: "Nivel 1",
+        childlink: "nivel1",
       },
       {
-        childtitle: "Venta Parcial",
-        childlink: "venta-parcial",
+        childtitle: "Nivel 2",
+        childlink: "nivel2",
       },
       {
-        childtitle: "Lista de Ventas",
-        childlink: "lista-ventas",
+        childtitle: "Nivel 3",
+        childlink: "nivel3",
       },
     ],
   }, */

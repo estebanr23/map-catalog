@@ -28,9 +28,9 @@ const Card = ({
     >
       {(title || subtitle) && (
         <header className={`card-header ${noborder ? "no-border" : ""}`}>
-          <div className="flex flex-1 justify-between items-center">
+          <div className="flex-col flex-1 justify-between items-center">
             {title && <div className={`card-title ${titleClass}`}>{title}</div>}
-            {/* {subtitle && <div className="card-subtitle">{subtitle}</div>} */}
+            {subtitle && <div className="card-subtitle">{subtitle}</div>}
             {header}
           </div>
           {/* {headerslot && <div className="card-header-slot">{headerslot}</div>} */}
