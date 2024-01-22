@@ -9,14 +9,19 @@ export const menuItems = [
     link: "dashboard",
   },
   {
-    title: "Mapa Inicial",
+    title: "Mapa 1",
     icon: "heroicons-outline:map",
     link: "initial",
   },
   {
-    title: "Mapa 1",
+    title: "Mapa 2",
     icon: "heroicons-outline:map",
     link: "event-map",
+  },
+  {
+    title: "Mapa 3",
+    icon: "heroicons-outline:map",
+    link: "layers-map",
   },
   /* {
     title: "Multinivel",
