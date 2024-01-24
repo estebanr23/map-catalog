@@ -7,8 +7,8 @@ import { centerPosition, marker1Position, marker2Position } from "@/components/m
 export const InitialPage = () => {
   return (
     <Card 
-    title="Prueba de Mapa"
-    subtitle="Mapa de San Fernando del Valle de Catamarca." 
+    title="Componente de mapa base"
+    subtitle="Muestra un mapa posicionado en San Fernando del Valle de Catamarca." 
     bodyClass="h-[36rem] p-10">
         <MapContainer center={centerPosition} zoom={13} scrollWheelZoom={true} className="h-full">
             <TileLayer

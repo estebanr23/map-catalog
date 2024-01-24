@@ -23,6 +23,26 @@ export const menuItems = [
     icon: "heroicons-outline:map",
     link: "layers-map",
   },
+  {
+    title: "Mapa 4",
+    icon: "heroicons-outline:map",
+    link: "twopoints-map",
+  },
+  {
+    title: "Mapa 5",
+    icon: "heroicons-outline:map",
+    link: "pointpath-map",
+  },
+  {
+    title: "Mapa 6",
+    icon: "heroicons-outline:map",
+    link: "draggablemarker-map",
+  },
+  {
+    title: "Mapa 7",
+    icon: "heroicons-outline:map",
+    link: "interactive-map",
+  },
   /* {
     title: "Multinivel",
     icon: "heroicons-outline:banknotes",

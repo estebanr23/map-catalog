@@ -1,3 +1,7 @@
 export * from './InitialPage'
 export * from './EventPage'
 export * from './LayersPage'
+export * from './TwoPointsPage'
+export * from './PointPath'
+export * from './DraggableMarkerPage'
+export * from './InteractiveMap'
